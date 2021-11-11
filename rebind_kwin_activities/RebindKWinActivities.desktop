@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Categories=Utility;Application;
+Comment[en_US]=This rebinds windows to their activities after KWin crashes/restarts
+Comment=This rebinds windows to their activities after KWin crashes/restarts
+Exec=python3 ~/.local/share/rebind_kwin_activities/RebindKWinActivities.py
+GenericName[en_US]=
+GenericName=
+Icon=kwin
+MimeType=
+Name[en_US]=Rebind KWin Activities
+Name=Rebind KWin Activities
+Path=~/.local/share/rebind_kwin_activities/
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
